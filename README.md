@@ -1,5 +1,7 @@
 # Simple React Template
-Super simple, and easy to use React template, with a bunch of features.
+Super simple, and easy to use, opionated React template, with a bunch of features.
+
+There is always room for improvement, so feel free to fork, make change and then make a PR.
 
 ## Features
 - ES2015 syntax support

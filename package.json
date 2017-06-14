@@ -1,0 +1,42 @@
+{
+  "name": "simple-react-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=development && webpack-dev-server --inline --watch --hot",
+    "start:prod": "set NODE_ENV=production && webpack-dev-server -p --inline --watch --hot",
+    "build": "set NODE_ENV=development && webpack",
+    "build:prod": "set NODE_ENV=production && webpack -p"
+  },
+  "author": "Ventu",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.16.2",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "import-glob-loader": "^1.1.0",
+    "node-sass": "^4.5.3",
+    "react-redux": "^5.0.5",
+    "sass-loader": "^6.0.5",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "normalize.css": "^7.0.0",
+    "react": "^15.5.4",
+    "react-addons-css-transition-group": "^15.5.2",
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "style-loader": "^0.18.2"
+  }
+}

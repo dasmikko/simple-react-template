@@ -1,2 +1,67 @@
-# simple-react-template
-Super simple, and easy to use React template
+# Simple React Template
+Super simple, and easy to use React template, with a bunch of features.
+
+## Features
+- ES2015 syntax support
+- Routing via React Router
+- HMR (Hot Module Reloading)
+- Development server
+- Source Maps for easy development
+- SCSS support
+- Markdown file loading (For quick static sites)
+- Redux (Including Redux Thunk)
+
+## Folder structure
+```
+root
+    - dist/ (Where the builded project files go)
+    - src/
+        - js/ (All js related stuff)
+            - actions/ (Redux Actions)
+            - components/ (Simple components, like buttons etc..)
+            - layouts/ (Layout components)
+            - pages/ (Page components, AKA pages)
+                - Home/ (Example home page)
+            - reducers/ (Redux Reducers)
+            - app.js (App js entry point)
+            - routes.js (App routes)
+            - store.js (Store setup)
+            - styles.js (Importing of all the styles for the app)
+        - scss/ (All SCSS styles)
+            - components/ (SCSS styles for components)
+            - global/ (Global SCSS)
+            - main.scss (SCSS entry point)
+    - index.html (Entry point of the app)
+    - markdown-loader.js (Markdown loader config)
+    - package.json
+    - webpack.config.js (Webpack config file)
+```
+
+## Getting started
+- Clone the project
+- Run `npm install` inside the folder
+- Run `npm run start` to start the development server
+- Open the URL `http:\\localhost:8080`
+- App is now running, so get to developing awesome stuff!
+
+## Building production app
+You simply run `npm run build:prod`
+
+After it's done, four new files with be in the `dist/` folder.
+
+Upload the `index.html` and the `dist/` folder to your server, and your good to go!
+
+**How it should look on your server**
+```
+- dist/
+    - main.css
+    - main.css.map
+    - bundle.js
+    - bundle.js.map
+index.html
+```
+
+NOTE: Please remember to route all URL's on your server to the `index.html` file, for best experience.
+
+## Credits
+Big thanks for to **KriaSoft** for their markdown-loader.js file [- KriaSoft](https://github.com/kriasoft/react-static-boilerplate)

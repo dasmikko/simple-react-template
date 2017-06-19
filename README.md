@@ -11,7 +11,7 @@ There is always room for improvement, so feel free to fork, make change and then
 - Source Maps for easy development
 - SCSS support
 - Markdown file loading (For quick static sites)
-- Redux (Including Redux Thunk)
+- Redux (Persistant store + Redux Thunk for async actions)
 
 ## Folder structure
 ```
@@ -64,6 +64,9 @@ index.html
 ```
 
 NOTE: Please remember to route all URL's on your server to the `index.html` file, for best experience.
+
+## Redux store persistence
+Currently the template is setup to put the whole Redux store into `localStorage`, but you could easily expand it to only store the stuff you want persistent.
 
 ## Credits
 Big thanks for to **KriaSoft** for their markdown-loader.js file [- KriaSoft](https://github.com/kriasoft/react-static-boilerplate)

@@ -6,5 +6,5 @@ import ReduxThunk from 'redux-thunk'
 const middleware = applyMiddleware(ReduxThunk);
 
 export default () => {
-  return createStore(reducers, middleware);
+    return createStore(reducers, middleware);
 };

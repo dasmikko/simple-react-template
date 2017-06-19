@@ -1,5 +1,5 @@
 /*
-	This is here where all the routes lives
+    This is here where all the routes lives
  */
 
 import React, { Component } from 'react'
@@ -13,13 +13,13 @@ import PageHome from './pages/Home';
 
 
 class Routes extends Component {
-	render() {
-		return (
-			<PageLayout>
-	  			<Route exact={true} path="/" component={PageHome} />
-  			</PageLayout>
-	  )
-	}
+    render() {
+        return (
+            <PageLayout>
+                <Route exact={true} path="/" component={PageHome} />
+            </PageLayout>
+        )
+    }
 }
 
 export default Routes;

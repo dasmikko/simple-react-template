@@ -12,26 +12,25 @@ import { exampleAction } from '../../actions/exampleActions'
 })
 class PageHome extends Component {
 
-	componentDidMount() {
-		document.title = "Home";
-	}
+    componentDidMount() {
+        document.title = "Home";
+    }
 
-	render() {
-
-		if(!this.props.example) {
+    render() {
+        if(!this.props.example) {
             // Dispatch action
             this.props.dispatch(exampleAction(true));
-		}
+        }
 
-		// Alert the store
-		console.log(this.props.example);
+        // Alert the store
+        console.log(this.props.example);
 
-		return (
-			<div>
-	  			<h1>Home Route</h1>
-  			</div>
-	  )
-	}
+        return (
+            <div>
+                <h1>Home Route</h1>
+            </div>
+        )
+    }
 }
 
 export default PageHome;

@@ -14,19 +14,18 @@ import store from "./store";
 
 
 class App extends Component {
-
-	render() {
+    render() {
         return (
-			<Provider store={store()}>
-				<Router>
-		  			<Routes />
-		  		</Router>
-	  		</Provider>
-	  )
-	}
+            <Provider store={store()}>
+                <Router>
+                    <Routes />
+                </Router>
+            </Provider>
+        )
+    }
 }
 
 ReactDOM.render(
-	<App/>,
-	document.getElementById('content')
+    <App/>,
+    document.getElementById('content')
 );

@@ -4,8 +4,7 @@ Super simple, and easy to use, opinionated React template, with a bunch of featu
 There is always room for improvement, so feel free to fork, make change and then make a PR.
 
 ## Features
-- Uses Webpack 4
-- Latest ES2017 syntax support
+- ES2015 syntax support
 - Routing via React Router
 - HMR (Hot Module Reloading)
 - Development server

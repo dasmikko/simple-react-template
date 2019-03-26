@@ -25,8 +25,8 @@ module.exports = {
           {
             loader: 'babel-loader',
             options: {
-              presets : ['env', 'react'],
-              plugins: ["transform-decorators-legacy", "transform-class-properties"],
+              presets : ['@babel/preset-env', '@babel/preset-react'],
+              plugins: [["@babel/plugin-proposal-decorators", { legacy: true }],  "@babel/plugin-proposal-class-properties"],
               sourceMaps: true
             }
           }

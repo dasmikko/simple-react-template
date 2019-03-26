@@ -5,6 +5,8 @@ There is always room for improvement, so feel free to fork, make change and then
 
 ## Features
 - Uses Webpack 4
+- Uses Babel 7
+- Support decorators and class properties
 - Latest ES2017 syntax support
 - Routing via React Router
 - HMR (Hot Module Reloading)
